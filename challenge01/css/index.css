@@ -1,0 +1,52 @@
+body
+{
+    background-color: #f5f5f5;
+}
+.contenedor
+{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 399px;
+    background-color: #ffffff;
+    border-style: none;
+    box-shadow: 1px 1px 5px 0 #ffffff;
+
+}
+#frame-img
+{
+    margin-top: 45px;
+    margin-left: 135px;
+}
+
+#saly-img
+{
+    margin-top: 45px;
+    margin-left: 110px;
+}
+.contenedor-p
+{
+    text-align: center;
+}
+
+.contenedor-button
+{
+    margin-left:100px;
+    height: 35px;
+    width: 160px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+}
+.frame-button
+{
+    box-shadow: 2px 4px 15px 0 #000;
+    background-color: #1c1a62 ;
+}
+.saly-button
+{
+    box-shadow: 2px 4px 10px 0 #ef655d;
+    background-color: #ef655d;
+}

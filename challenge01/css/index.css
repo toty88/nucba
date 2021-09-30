@@ -31,26 +31,27 @@ body
 {
 	color: #c0c5cb;
 	font-size: 25px;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: sans-serif;
+	font-stretch: expanded;
 	display: block;
 	position: absolute;
 	right: 30px;
 }
-.flecha-p2
+.p2
 {
 	position: absolute;
-	top: 170px;
-	left: 66px;
-	font-family: sans-serif;
     text-align:center;
+	font-family: sans-serif;
+}
+.flecha-p2
+{
+	top: 170px;
+	left: 75px;
 }
 .sirena-p2
 {
-	position: absolute;
 	top: 160px;
 	left: 135px;
-	font-family: sans-serif;
-    text-align:center;
 }
 .contenedor-button
 {

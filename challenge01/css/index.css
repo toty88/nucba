@@ -4,49 +4,73 @@ body
 }
 .contenedor
 {
-    height: 350px;
-    width: 350px;
+	overflow:auto;
+    height: 399px;
+    width: 432px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 399px;
     background-color: #ffffff;
     border-style: none;
-    box-shadow: 1px 1px 5px 0 #ffffff;
-
+    box-shadow: 0px 15px 20px -5px #ffffff;
+	position: relative;
 }
-#frame-img
+#flecha-img
 {
-    margin-top: 45px;
-    margin-left: 135px;
+	position: absolute;
+	top: 60px;
+	left: 140px;
 }
-
-#saly-img
+#sirena-img
 {
-    margin-top: 45px;
-    margin-left: 110px;
+	position: absolute;
+	top: 70px;
+	left: 170px;
 }
-.contenedor-p
+.contenedor-p1
 {
-    text-align: center;
+	color: #c0c5cb;
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+	position: absolute;
+	right: 30px;
 }
-
+.flecha-p2
+{
+	position: absolute;
+	top: 170px;
+	left: 66px;
+	font-family: sans-serif;
+    text-align:center;
+}
+.sirena-p2
+{
+	position: absolute;
+	top: 160px;
+	left: 135px;
+	font-family: sans-serif;
+    text-align:center;
+}
 .contenedor-button
 {
-    margin-left:100px;
-    height: 35px;
-    width: 160px;
+    height: 40px;
+    width: 170px;
     text-align: center;
     color: #ffffff;
     border-radius: 5px;
     border-style: none;
+	top: 260px;
+	left: 125px;
+	position: absolute;
 }
-.frame-button
+.flecha-button
 {
-    box-shadow: 2px 4px 15px 0 #000;
-    background-color: #1c1a62 ;
-}
-.saly-button
-{
-    box-shadow: 2px 4px 10px 0 #ef655d;
+    box-shadow: 0px 15px 10px -13px #ef655d;
     background-color: #ef655d;
+}
+.sirena-button
+{
+    box-shadow: 0px 15px 10px -13px #1c1b5e;
+    background-color: #1c1b5e;
 }

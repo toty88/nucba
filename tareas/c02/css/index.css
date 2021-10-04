@@ -1,6 +1,75 @@
+.titulo
+{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.fotos
+{
+	position: relative;
+
+
+}
+.fotos h2
+{
+	position: absolute;
+	left: 520px;
+	bottom: 140px;
+}
+.lista
+{
+	position: absolute;
+	left: 500px;
+	bottom: -10px;
+	font-size: 20px;
+	font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Yaldevi', sans-serif;
+}
+.fotos-common 
+{
+	width: 200px;
+    display: block;
+	border-radius: 50%;
+}
+.fotos-1
+{
+    margin-left: 300px;
+}
+.fotos-2
+{
+	position: absolute;
+	bottom: 1px;
+	left: 200px;
+}
+.fotos-3
+{
+	position: absolute;
+	bottom: 1px;
+	left: 100px;
+}
+.cool
+{
+	margin-top: 30px;
+	font-size: 30px;
+	position: relative;
+}
+.cool-jose
+{
+	border-radius: 50%;
+	width: 50px;
+	position: absolute;
+	left: 380px;
+	bottom: 0px;
+}
 .videos
 {
 	position: relative;
+}
+.videos h2
+{
+	margin-left: 400px;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
 }
 .videos-sonata-titulo
 {
@@ -12,7 +81,6 @@
 {
 	position: absolute;
 	top:20px;
-
 }
 .videos-rammstein-titulo
 {
@@ -41,48 +109,8 @@
 .videos-parrafo
 {
 	position: absolute;
-	font-size: 100px;
+	font-size: 40px;
 	top: 400px;
 }
-.fotos
-{
-	position: relative;
 
-
-}
-.fotos h2
-{
-	position: absolute;
-	left: 520px;
-	bottom: 140px;
-}
-.lista
-{
-	position: absolute;
-	left: 500px;
-	bottom: 10px;
-	font-size: 20px;
-}
-.fotos-common 
-{
-	width: 200px;
-    display: block;
-	border-radius: 50%;
-}
-.fotos-1
-{
-    margin-left: 300px;
-}
-.fotos-2
-{
-	position: absolute;
-	bottom: 1px;
-	left: 200px;
-}
-.fotos-3
-{
-	position: absolute;
-	bottom: 1px;
-	left: 100px;
-}
 

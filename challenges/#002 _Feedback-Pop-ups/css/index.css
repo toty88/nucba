@@ -30,18 +30,19 @@
 {
     height: 491px;
     width: 460px;
-    border-color: #E4E6F6;
-    background-color: #FFFFFF;
     box-shadow: 0px 15px 10px -13px #A6A8BA;
-    border-style: solid;
-    border-width: 0.9px;
     overflow:auto;
     border-radius: 20px;
     margin-bottom: 30px;
     margin-left: 399px;
-
 }
-
+.borde
+{
+    border-color: #E4E6F6;
+    background-color: #FFFFFF;  
+    border-style: solid;
+    border-width: 0.9px;
+}
 /* Pregunta y boton de close */
 .pregunta-boton
 {
@@ -56,12 +57,8 @@
     height: 50px;
     width: 50px;
     font-size: 20px;
-    background-color: #FFFFFF;
-    border-style: solid;
     border-width: 0.9px;
     color: #A6A8BA;
-    border-color: #E4E6F6;
-    background-color: #FFFFFF;
 }
 .pregunta
 {
@@ -89,10 +86,6 @@
     font-size: 20px;
     font-family: Helvetica, sans-serif;  
     border-radius: 10%;
-    border-style: solid;
-    border-width: 0.9px;
-    border-color: #E4E6F6;
-    background-color: #FFFFFF;
     font-weight: bolder;
 }
 .califiacion-btn button:active

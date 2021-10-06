@@ -1,0 +1,163 @@
+@font-face
+{
+    font-family: "Ossem-Regular";
+    src: url(../assets/fonts/Ossem/Regular/Ossem-Regular.otf), 
+    url(../assets/fonts/Ossem/Regular/Ossem-Regular.ttf), 
+    url(../assets/fonts/Ossem/Regular/Ossem-Regular.eot);
+}
+@font-face
+{
+    font-family: "Ossem-Rounded";
+    src: url(../assets/fonts/Ossem/Rounded/Ossem-Rounded.otf), 
+    url(../assets/fonts/Ossem/Rounded/Ossem-Rounded.ttf), 
+    url(../assets/fonts/Ossem/Rounded/Ossem-Rounded.eot);
+}
+@font-face
+{
+    font-family: "Ossem-Rust";
+    src: url(../assets/fonts/Ossem/Rust/Ossem-Rust.otf), 
+    url(../assets/fonts/Ossem/Rust/Ossem-Rust.ttf), 
+    url(../assets/fonts/Ossem/Rust/Ossem-Rust.eot);
+}
+@font-face 
+{
+    font-family: "Ossem-Rough";
+    src: url(../assets/fonts/Ossem/Rough/Ossem-Rough.otf), 
+    url(../assets/fonts/Ossem/Rough/Ossem-Rough.ttf), 
+    url(../assets/fonts/Ossem/Rough/Ossem-Rough.eot)
+}
+.contenedor
+{
+    height: 491px;
+    width: 460px;
+    border-color: #E4E6F6;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 10px -13px #A6A8BA;
+    border-style: solid;
+    border-width: 0.9px;
+    overflow:auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 399px;
+
+}
+
+/* Pregunta y boton de close */
+.pregunta-boton
+{
+    position: relative;
+}
+.btn-close button
+{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 390px;
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0.9px;
+    color: #A6A8BA;
+    border-color: #E4E6F6;
+    background-color: #FFFFFF;
+}
+.pregunta
+{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+    color: #151A41;
+}
+
+/* Botones {1..5} y labels  */
+.califiacion
+{
+    position: relative;
+}
+.califiacion-btn button
+{
+    position: absolute;
+    top: 145px;
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;  
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 0.9px;
+    border-color: #E4E6F6;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+}
+.califiacion-btn button:active
+{
+    transform: scale(0.98);
+}
+.btn-1
+{
+    left: 55px;
+}
+.btn-2
+{
+    left: 125px;
+}
+.btn-3
+{
+    left: 195px;
+}
+.btn-4
+{
+    left: 265px;
+}
+#btn-5
+{
+    left: 335px;
+    color: #FFFFFF;
+    background-color: #FF0099;
+    box-shadow: 0px 15px 10px -13px #A6A8BA;
+}
+.calificacion-resultado label
+{
+    position: absolute;
+    font-weight: bolder;
+    top: 205px;
+}
+.malo
+{
+    left: 55px;
+}
+.bueno
+{
+    left: 280px;
+    text-align: right;
+}
+
+/* Terminos y Btn Siguiente */
+.terminos
+{
+    position: relative;
+}
+.terminos-check input[type='checkbox']
+{
+    position: absolute;
+    font-weight: bolder;
+    top: 245px;
+    left: 50px;
+    height: 100px;
+    width: 30px;
+}
+.terminos-acepto
+{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    top: 290px;
+    left: 90px;
+    font-size: 15px;
+}

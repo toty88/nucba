@@ -1,29 +1,45 @@
+body
+{
+	background-color: #25be67;
+	widows: 1200px;
+}
+.border-common
+{
+	border-style: solid;
+    border-width: thin;
+	border-radius: 10px;
+	box-shadow: 0px 15px 10px -10px #1c1b5e;
+	font-weight: bold;
+}
 .titulo
 {
+	position: absolute;
+	width: 1090px;
+	margin-top: 0px;
+	left: 100px;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
+	background-color: #abdbe3;
 }
 .fotos
 {
-	position: relative;
-
-
-}
-.fotos h2
-{
 	position: absolute;
-	left: 520px;
-	bottom: 140px;
+	top: 120px;
 }
 .lista
 {
 	position: absolute;
-	left: 500px;
-	bottom: -10px;
+	left: 520px;
+	height: 150px;
+	width: 620px;
 	font-size: 20px;
-	font-family: 'Gemunu Libre', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Yaldevi', sans-serif;
+	background-color: #eab676;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: justify;
+}
+.lista li
+{
+	padding: 1px 1px 1px 1px;
 }
 .fotos-common 
 {
@@ -33,37 +49,118 @@
 }
 .fotos-1
 {
-    margin-left: 300px;
+    left: 300px;
+	position: absolute;
 }
 .fotos-2
 {
 	position: absolute;
-	bottom: 1px;
 	left: 200px;
 }
 .fotos-3
 {
 	position: absolute;
-	bottom: 1px;
 	left: 100px;
 }
 .cool
 {
-	margin-top: 30px;
+	position: absolute;
+	top: 370px;
 	font-size: 30px;
-	position: relative;
+	left: 110px;
+}
+.cool-logo
+{
+	position: absolute;
+	width: 600px;
+}
+.cool input[type="radio"]
+{
+	position: absolute;
+	top: 20px;
+	left:610px;
 }
 .cool-jose
 {
-	border-radius: 50%;
-	width: 50px;
 	position: absolute;
-	left: 380px;
-	bottom: 0px;
+	border-radius: 50%;
+	width: 100px;
+	bottom: -25px;
+	left: 650px;
+}
+.frases
+{
+	position: relative;
+	width: 1100px;
+	height: 400px;	
+	left: 100px;
+	top: 450px;
+}
+.frases p
+{
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+}
+.frases-titulo
+{
+	position: absolute; 
+	width: 1090px;
+	height: 50px;
+	background-color: #64103f;
+	font-size: 20px;
+	border-color: #A6A8BA;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+
+}
+.frases-titulo h3
+{
+	margin-top: 10px;
+}
+.autor
+{
+	font-weight: bold;
+}
+.libro
+{
+	font-style: italic;
+}
+.frase-common
+{
+	margin-top: 20px;
+	position: absolute;
+	background-color: #dbd875;	
+	border-color: #A6A8BA;
+	box-shadow: 0px 15px 10px -13px #1c1b5e;
+}
+.kvothe1
+{
+	top: 50px;
+	width: 350px;
+}
+.kvothe2
+{
+	top: 50px;
+	left: 370px;
+	width: 350px;	
+}
+.kvothe3
+{
+	top: 50px;
+	left: 740px;
+	width: 350px;		
+}
+.kvothe4
+{
+	top: 260px;
+	width: 350px;	
 }
 .videos
 {
 	position: relative;
+	top: 650px;
 }
 .videos h2
 {
@@ -106,11 +203,27 @@
 	left: 950px;	
 	top: 20px;
 }
-.videos-parrafo
+.git
+{
+	position: relative;
+	top: 1000px;
+}
+
+.flecha
 {
 	position: absolute;
+	left: 900px;
+}
+.flecha-custom
+{
+	width: 200px;
+}
+.git-url
+{
+	position: absolute;
+	top: 150px;
 	font-size: 40px;
-	top: 400px;
+	
 }
 
 

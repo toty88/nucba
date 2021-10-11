@@ -84,6 +84,7 @@ body
 {
 	position: absolute;
 	border-radius: 50%;
+	box-shadow: 0px 15px 10px -10px #1c1b5e;
 	width: 100px;
 	bottom: -25px;
 	left: 650px;
@@ -115,6 +116,14 @@ body
 	color: #ffffff;
 
 }
+.frases-common
+{
+	margin-top: 20px;
+	position: absolute;
+	background-color: #dbd875;	
+	border-color: #A6A8BA;
+	box-shadow: 0px 15px 10px -13px #1c1b5e;
+}
 .frases-titulo h3
 {
 	margin-top: 10px;
@@ -127,14 +136,7 @@ body
 {
 	font-style: italic;
 }
-.frase-common
-{
-	margin-top: 20px;
-	position: absolute;
-	background-color: #dbd875;	
-	border-color: #A6A8BA;
-	box-shadow: 0px 15px 10px -13px #1c1b5e;
-}
+
 .kvothe1
 {
 	top: 50px;
@@ -157,58 +159,51 @@ body
 	top: 260px;
 	width: 350px;	
 }
-.videos
+.flex-videos-container
 {
 	position: relative;
-	top: 650px;
+	top: 750px;
+	width: 1090px;
+	left: 100px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+
 }
-.videos h2
+.flex-videos-container h2
 {
-	margin-left: 400px;
-	font-size: 30px;
-	font-family: 'Ubuntu', sans-serif;
+	margin-top: 5px;
 }
-.videos-sonata-titulo
+
+.flex-sonata
 {
-	position: absolute;
-	top: 20px;
-	left: 70px;
+	display: flex;
+	margin-top: 80px;
+	flex-direction: column;
 }
-.videos-sonata-video
+.flex-rammstein
 {
-	position: absolute;
-	top:20px;
+	display: flex;
+	margin-top: 80px;
+	flex-direction: column;	
 }
-.videos-rammstein-titulo
+.flex-imperio
 {
-	position: absolute;
-	left: 480px;
-	top: 50px;
+	display: flex;
+	margin-top: 80px;
+	flex-direction: column;		
 }
-.videos-rammstein-video
+.flex-videos-container img
 {
-	position: absolute;
-	top:20px;
-	left: 420px;
-}
-.videos-imperio-video
-{
-	position: absolute;
-	top:10px;
-	left: 840px;	
-}
-.videos-imperio-titulo
-{
-	position: absolute;
-	left: 950px;	
-	top: 20px;
+	width: 400px;
 }
 .git
 {
 	position: relative;
-	top: 1000px;
+	top: 800px;
 }
-
 .flecha
 {
 	position: absolute;

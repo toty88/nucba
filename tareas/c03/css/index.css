@@ -177,23 +177,11 @@ body
 	margin-top: 5px;
 }
 
-.flex-sonata
+.flex-videos
 {
 	display: flex;
 	margin-top: 80px;
 	flex-direction: column;
-}
-.flex-rammstein
-{
-	display: flex;
-	margin-top: 80px;
-	flex-direction: column;	
-}
-.flex-imperio
-{
-	display: flex;
-	margin-top: 80px;
-	flex-direction: column;		
 }
 .flex-videos-container img
 {

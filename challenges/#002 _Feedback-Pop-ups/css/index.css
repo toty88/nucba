@@ -82,7 +82,7 @@
     position: absolute;
     top: 145px;
     text-align: center;
-    font-family: Helvetica, sans-serif;  
+    font-family: Garamond;
     height: 50px;
     width: 60px;
     font-size: 20px;
@@ -118,8 +118,9 @@
 .calificacion-resultado label
 {
     position: absolute;
-    font-weight: bolder;
     top: 205px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .malo
 {
@@ -127,7 +128,7 @@
 }
 .bueno
 {
-    left: 280px;
+    left: 265px;
     text-align: right;
 }
 
@@ -153,8 +154,7 @@
 }
 .terminos-acepto label
 {
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 17px;
 }
 .siguiente
@@ -182,8 +182,13 @@
     height: 75px;
     text-align: center;
     font-size: 20px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
     border-radius:2mm;
+}
+.siguiente-boton-arrow
+{
+    width: 20px;
 }
 .siguiente-boton button:active
 {

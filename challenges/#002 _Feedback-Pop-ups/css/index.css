@@ -182,14 +182,14 @@
     width: 350px;
     height: 75px;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-radius:2mm;
 }
 .siguiente-boton-arrow
 {
-    width: 20px;
+    width: 15px;
 }
 .siguiente-boton button:active
 {
